@@ -1,0 +1,14 @@
+<div class="containerLoginForm">
+
+    <form action="/login" id="formularioSign" class="formLogin" method="post">
+    <div class="formCreateUser">
+        <div><label>Email: </label><input type="email" id="Email" name="Email" /></div>
+        <div><label>Contraseña: </label><input type="password" id="Password" name="Password" /></div>
+    </div>
+    <button type="submit">Entrar</button>
+    </form>
+    {{this.mensaje}}
+
+        <p>No tenes una cuenta?<a href="register"> Ir a crear cuenta</a></p>
+        <p>Olvidaste tu contraseña?<a href="/restorePassword"> Ir restablecer</a></p>
+</div>
